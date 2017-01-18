@@ -27,18 +27,20 @@ $ heroku open
 or
 
 
+```
+$ npm install --save --save-exact body-parser
 
-npm install --save --save-exact body-parser
+$ npm install --save --save-exact request
 
-npm install --save --save-exact request
+$ git add .
 
- git add .
+$ git commit -m "Demo"
 
-git commit -m "Demo"
+$ git push heroku master
 
- git push heroku master
+$ heroku open cool
 
- heroku open cool
+ ```
 
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
